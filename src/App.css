@@ -1,0 +1,297 @@
+:root {
+    --primary: #7D5FFE;
+    --primaryLight: #e0f3ff;
+    --purplelight: #F2EFFF;
+    --black: #000000;
+    --danger: #f5260b;
+    --white: #ffffff;
+    --offWhite: #f7f7f7;
+    --gray: #d7d2d2;
+    --darkGray: #797979;
+    --succees: #00b341;
+    --border: #dedede;
+    --toggleborder: #F6396D;
+    --textBlack: #233036;
+    --extraBlack:#0D0D0D;
+    --inputText: #5C6469;
+  --viloetText: #6841FF;
+  --cosmicText: #763F6A;
+  --cardUp: #50DFB2;
+  --cardDown: #FE7198;
+  --succeesGradient: linear-gradient(50deg, #17C217, #008900);
+  --cosmicGradient: linear-gradient(45deg, #763F6A, #9D729A);
+  --dangerGradient: linear-gradient(45deg, #741003, #f5260b);
+  --viloetGradient: linear-gradient(45deg, #6841FF, #443487);
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+button,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    padding: 3px;
+    height: 3px;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 2px;
+    padding: 5px;
+    background-color: #1C1B4D;
+    border-radius: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+.flex {
+    display: flex !important;
+}
+
+.flexAlignCenter {
+    display: flex;
+    align-items: center;
+}
+
+.flexJustifyCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexJustifyBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexAlignEnd {
+    display: flex;
+    align-items: flex-end !important;
+}
+
+.flexAlignStart {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexJustifyStart {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.flexJustifyEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexAlignBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.flexColumn {
+    flex-direction: column !important;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.justifyAround {
+    justify-content: space-around;
+}
+
+.flexWarp {
+    flex-wrap: wrap;
+}
+
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+/* Margin style */
+
+.marginX5 {
+    margin: 0 5px !important;
+}
+
+.marginX10 {
+    margin: 0 10px;
+}
+
+.marginX20 {
+    margin: 0 20px;
+}
+
+.marginX30 {
+    margin: 0 30px;
+}
+
+.marginY10 {
+    margin: 10px 0;
+}
+
+.marginY20 {
+    margin: 20px 0;
+}
+
+.marginY30 {
+    margin: 30px 0;
+}
+
+.marginLeft10 {
+    margin-left: 10px;
+}
+
+.marginLeft20 {
+    margin-left: 20px !important;
+}
+
+.marginLeft30 {
+    margin-left: 30px;
+}
+
+.marginRight10 {
+    margin-right: 10px;
+}
+
+.marginRight15 {
+    margin-right: 15px !important;
+}
+
+.marginRight20 {
+    margin-right: 20px;
+}
+
+.marginRight30 {
+    margin-right: 30px;
+}
+
+.marginBottom20 {
+    margin-bottom: 20px;
+}
+
+.marginTop10 {
+    margin-top: 10px !important;
+}
+
+.marginTop20 {
+    margin-top: 20px !important;
+}
+
+.marginBottom0 {
+    margin-bottom: 0px !important;
+}
+
+.padding0 {
+    padding: 0 !important;
+}
+
+.paddingSt0 {
+    padding-left: 0 !important;
+}
+
+.paddingEnd0 {
+    padding-right: 0 !important;
+}
+
+.paddingTop0 {
+    padding-top: 0 !important;
+}
+
+.paddingBottom0 {
+    padding-bottom: 0 !important;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+.visibilityNone {
+    visibility: hidden;
+}
+
+/* Gap */
+
+.gap0 {
+    gap: 0 !important;
+}
+.gap5 {
+    gap: 5px !important;
+}
+
+/* width */
+
+.width100 {
+    width: 100% !important;
+}
+
+.width50 {
+    width: 50% !important;
+}
+
+.width20 {
+    width: 20% !important;
+}
+
+.width22 {
+    width: 22% !important;
+}
+
+.width10 {
+    width: 10% !important;
+}

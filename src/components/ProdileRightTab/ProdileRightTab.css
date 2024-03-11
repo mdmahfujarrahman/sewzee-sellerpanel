@@ -1,0 +1,36 @@
+.prodileRightTabWrapper{
+    padding: 10px 20px;
+    display: flex;
+    width: calc(100% - 16%);
+    flex-direction: column;
+    
+}
+
+.prodileRightTabHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.prodileRightTabTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--extraBlack);
+}
+
+.prodileContactDetails p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0px;
+    color: var(--primary);
+    background-color: var(--primaryLight);
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}

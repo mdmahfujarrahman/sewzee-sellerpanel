@@ -1,0 +1,15 @@
+.ShipRocketOrderModalWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    top: 40%;
+    left: 50%;
+    outline: none;
+    width: 80%;
+    box-shadow: 24;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+    border-radius: 4px;
+}
